@@ -1,0 +1,268 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.header{
+    width:100%;
+    height:80px;
+    background-color: #604829;
+    position:fixed;
+    z-index: 2;
+}
+
+.header img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 15%;
+}
+
+.links{
+    position:absolute;
+    right: 15%;
+    top: 35%;
+}
+
+.links a{
+    color: #c4a47c;
+    padding-left: 25px;
+    text-decoration-line: none;
+    text-shadow: 3px 5px 2px black;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.paralax-1{
+    background-image: url(imgs/download-arquivos-do-projeto/assets/parallax-imagem1.png);
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+}
+
+.paralax-1 h1{
+    font-size: 100px;
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    margin: 0px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.text1, .text2, .text3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 80px 0px;
+    height: 250px;
+}
+
+.text1 h2{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;;
+    color: #c4a47c;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+.text1-1, .text2-1, .text3-1{
+    display: inline-block;
+}
+
+.text1 p{
+    width: 1024px;
+    margin: 0px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    line-height: 34px;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    height: fit-content;
+}
+
+.paralax-2{
+    background-image: url(imgs/download-arquivos-do-projeto/assets/parallax-imagem2.jpg);
+    height: 50vh;
+    background-size:cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paralax-2 h1{
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    background-color: #604829;
+    margin: 10px;
+    right: 0;
+    left: 0;
+    width: 500px;
+    text-align: center;
+}
+
+.text2 h2{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;;
+    color: #c4a47c;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+.text2 p{
+    width: 1024px;
+    margin: 0px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    line-height: 34px;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    height: fit-content;
+}
+
+.paralax-3{
+    background-image: url(imgs/download-arquivos-do-projeto/assets/parallax-imagem3.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paralax-3 h1{
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    background-color: #604829;
+    margin: 10px;
+    right: 0;
+    left: 0;
+    width: 500px;
+    text-align: center;
+}
+
+.text3 h2{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;;
+    color: #c4a47c;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+.text3 p{
+    width: 1024px;
+    margin: 0px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    line-height: 34px;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    height: fit-content;
+}
+
+.paralax-4{
+    background-image: url(imgs/download-arquivos-do-projeto/assets/parallax-imagem4.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes h2,#contatos{
+    text-align: center;
+    background-color: #604829;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    padding: 10px;
+    width: 500px;
+}
+
+.informacoes h2{
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.informacoes #contatos{
+    font-size: 18px;
+    text-shadow: 2px 7px 10px black;
+    position: relative;
+    bottom: 0%;
+}
+
+.mapa{
+    margin: 60px;
+}
+
+.horarios{
+    background-image: url(imgs/download-arquivos-do-projeto/assets/cafeteria.jpg);
+    height: 85vh;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horarios h2{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.horarios .lista{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+hr{
+    width: 500px;
+    margin: 0;
+    color: #fff;
+    
+}
+
+td{
+    text-align: right;
+    padding: 10px;
+}
+
+span{
+    color:#c4a47c;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer{
+    width: 100vw;
+    height:100px;
+    background-color: #000;
+    align-content: end;
+}
