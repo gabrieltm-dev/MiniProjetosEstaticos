@@ -1,2 +1,2 @@
-# miniProjects2
-Mini projects created with HTML and CSS
+# Mini Projects
+4 mini projects created with HTML and CSS
