@@ -1,3 +1,5 @@
+@import url(CssProjeto-quartos.css);
+
 * { box-sizing: border-box;}
 body {
   margin: 0;
@@ -73,24 +75,22 @@ body {
 
 .quartos {
   display: flex;
-  justify-content: space-between;
 }
 
 .quarto {
+  display: flex;
+  flex-direction: column;
   margin-right: 30px;
   padding-bottom: 20px;
   border-bottom: 2px solid #00836a;
   text-decoration: none;
   color: #3d3d3d;
-}
-
-.quarto a {
-  text-decoration: none;
-  color: #333;
-}
-
-.quarto a p {
   text-align: center;
+}
+
+.quarto img:hover{
+  transition: 0.35s;
+  transform: scale(1.1);
 }
 
 .quarto:last-child {

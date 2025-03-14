@@ -1,0 +1,38 @@
+.principal{
+    margin-bottom: 5rem;
+}
+
+.quartos-galeria{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1rem;
+    margin: auto 10%;
+    align-items: stretch;
+}
+
+.informacoes-quarto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.informacoes-quarto h3{
+    font-size: 1.5rem;
+}
+
+.informacoes-quarto p{
+    font-size: 1.5rem;
+}
+
+.informacoes-quarto ul li{
+    font-size: 1.25rem;
+    margin: .5rem auto;
+}
+
+#solteiro h2,
+#casal h2, 
+#familia h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
